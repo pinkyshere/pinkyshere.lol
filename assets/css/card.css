@@ -17,7 +17,7 @@
 
 #user-info {
     position: relative;
-    padding: 110px 12px 16px
+    padding:90px 12px 16px
     
 }
 
@@ -79,7 +79,7 @@
 #username {    position: absolute;
     top: 0%;
     right: 0px;
-    transform: translate(-75%,180%);
+    transform: translate(-75%,190%);
 }
 
 #username>span {
@@ -101,18 +101,15 @@ hr {
 }
 
 #about>h4 {
+    position: absolute;
+    transform: translate(-1%, -10%);
     font-family: Montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 6px
+    font-size: 24px
 }
 
 #about>p {
     position: absolute;
-    top: 55%;
-    right: 42.5%;
+    transform: translate(14%, -170%);
     font-family: Montserrat, sans-serif;
     font-size: 20px
     
